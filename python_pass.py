@@ -10,5 +10,8 @@ Instructions:
 
 
 class StringOperations:
-    def reverse(self, *, to_be_reversed: str = None):
-        raise NotImplemented('This method need to be implemented')
+    def reverse(self, *, to_be_reversed: str = None,s="computech"):
+        print(s[len(s)::-1])
+
+class ReversedString(StringOperations):
+    pass
